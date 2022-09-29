@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+a{
+  color: #2f80ed;
+  text-decoration:underline;
+}
+.page{
+  width:100%;
+  min-height:100%;
+}
+.kapibarus{
+  display:block;
+  width: 520px;
+  height: 190px;
+  margin: 110px auto 10px;
+}
+.title{
+  width: 420px;
+  margin: 0 auto 22px;
+  text-align:center;
+  font-size: 120px;
+}
+.alert{
+  display:none;
+  margin: 0 auto;
+  width: 420px;
+  text-align: center;
+  font-size: 16.5px;
+}
+.title:hover ~ .alert{
+  display: block;
+}
+.back{
+  width: 100%;
+  position:absolute;
+  display:block;
+  text-align:center;
+  bottom:30px;
+}
